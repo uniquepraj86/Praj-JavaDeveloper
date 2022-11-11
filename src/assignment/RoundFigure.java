@@ -2,7 +2,7 @@ package assignment;
 
 import java.util.Scanner;
 
-public class  RoundFigure {
+public class RoundFigure {
     public static void main(String[] args) {
 
         Scanner sc =new Scanner(System.in);
