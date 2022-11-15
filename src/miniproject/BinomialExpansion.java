@@ -3,23 +3,21 @@ package miniproject;
 import java.util.Scanner;
 
 public class BinomialExpansion {
-    public static void main(String[] args) {
-        int n;
-        String a,b;
-        Scanner sc = new Scanner(System.in);
-        System.out.println("\nBinomial expansion of"+"(a+b)n");
-        System.out.println("enter a:");
-        a=sc.nextLine();
-        System.out.println("enter b:");
-        b= sc.nextLine();
-        while(true){
-            System.out.println("Enter n:");
-            n = sc.nextInt();
-            if(n<34 && n>=0)break;
-            System.out.println("Enter Positive" + "integer <34 for n");
-
+    public static long fact(int i) {
+        if(i <= 1) {
+            return 1;
         }
+        return i * fact(i - 1);
+    }
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter n value: ");
 
-//        Printer.printExpansion(a,b,n);
+        int n = sc.nextInt();
+        System.out.println("Enter r value: ");
+
+        int r = sc.nextInt();
+        long ncr = fact(n)/(fact(r)*fact(n-r));
+        System.out.println("c("+n+", "+r+") :"+ ncr);
     }
 }
