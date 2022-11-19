@@ -18,6 +18,7 @@ public class ArrayReverse {
         System.out.println("Do you want to continue?");
         System.out.println("1. Yes");
         System.out.println("2. No");
+
         Scanner sc = new Scanner(System.in);
         int input = sc.nextInt();
         if (input == 1) {

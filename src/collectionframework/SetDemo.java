@@ -1,6 +1,7 @@
 package collectionframework;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class SetDemo {
@@ -20,8 +21,13 @@ public class SetDemo {
         System.out.println(set.contains("p"));  // it returns present or not
         System.out.println(set.remove("r"));
 
+        Set<Integer> List = new LinkedHashSet<>();
+        List.add(1);
+        List.add(2);
+        List.add(2);
+        List.add(2);
 
-
+        System.out.println(List);
     }
 }
 

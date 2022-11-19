@@ -6,6 +6,7 @@ package basic;
  * Non-primitive Data Type - object,arrays
  * Integer ,Long,Float,Double,float,short,boolean,
  */
+
 public class DataTypes {
     public static void main(String[] args) {
 
