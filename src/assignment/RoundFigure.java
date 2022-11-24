@@ -10,7 +10,7 @@ public class  RoundFigure {
         System.out.println("Enter the Number :");
         i=sc.nextDouble();
 
-//        double i = 315;
+
         double div = i % 100;
         if (div <= 25) {
             System.out.println(fl(i));
