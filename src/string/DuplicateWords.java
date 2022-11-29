@@ -15,7 +15,7 @@ public class DuplicateWords {
 
     public static void main(String[] args) {
 
-        String str = "prajktprj";
+        String str = "welcome to java";
         char[] arr = str.toCharArray();
         System.out.println("Duplicate Letters");
         for (int i = 0; i < str.length(); i++) {
