@@ -1,6 +1,4 @@
 package java8;
-
-
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -21,9 +19,7 @@ public class ForEachDemo {
         map.put(1,"Pune");
         map.put(2,"Nashik");
         map.put(3,"Delhi");
-        map.forEach((k,v)->{
-            System.out.println("key " +k+ " Value " +v);
-        });
+        map.forEach((k,v)-> System.out.println("key " +k+ " Value " +v));
     }
 }
 class  ConsumerImpl implements Consumer<Integer>{

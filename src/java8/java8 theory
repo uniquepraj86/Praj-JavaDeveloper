@@ -64,11 +64,11 @@ Interfaces:
 1)    forEach() method in Iterable interface
 2)    default and static methods in Interfaces
 3)    Functional Interfaces and Lambda Expressions
-Java Stream API for Bulk Data Operations on Collections
-Java Time API
-Collection API improvements
-Concurrency API improvements
-Java IO improvements
+         Java Stream API for Bulk Data Operations on Collections
+         Java Time API
+         Collection API improvements
+         Concurrency API improvements
+         Java IO improvements
 
 
 
@@ -80,7 +80,7 @@ Homework:
 1.
 interface I1{
 	default void display(){
-		// lines of code
+		 lines of code
 	}
 }
 interface I2{
