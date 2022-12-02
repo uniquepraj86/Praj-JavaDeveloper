@@ -25,6 +25,10 @@ public class StreamApi {
         System.out.println(str.apply("Welcome-India"));
 
 
+        Function <String,Integer> s = (st)-> st.length();
+        Function <String,Integer> s1 = (st1)-> st1.length();
+
+
         List<Integer> list = Arrays.asList(1,2,3,4,5,6,7,8,9);
         System.out.println(IntStream.of(1,2,3,4,5,6,7,8,9).max().getAsInt());
         System.out.println(Arrays.toString(IntStream.range(1,100).toArray()));
@@ -38,7 +42,11 @@ public class StreamApi {
         };
 
         list.stream().filter(max).forEach(System.out::println);
+
+
         System.out.println("**************************************************");
+
+
         List<Integer> lists = new ArrayList<>(Arrays.asList(4,12,19,10,90,30,60,17,90));
         System.out.println(lists.stream().max(Comparator.naturalOrder()).get());
 
