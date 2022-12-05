@@ -1,9 +1,9 @@
 package game;
 
-public class Animated implements Runnable {
+public class Animate implements Runnable {
     BlockBreakerPanel bp;
 
-    Animated(BlockBreakerPanel b) {
+    Animate(BlockBreakerPanel b) {
         bp = b;
     }
 
@@ -14,7 +14,7 @@ public class Animated implements Runnable {
             try {
                 Thread.sleep(10);
             } catch (InterruptedException e) {
-        throw new RuntimeException(e);
+              throw new RuntimeException(e);
 //                e.printStackTrace();
             }
         }
