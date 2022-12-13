@@ -41,7 +41,7 @@ public class DigitalWatch implements Runnable {
 
                 printTime();
 
-                t.sleep( 1000 );  // interval given in milliseconds
+                t.sleep( 1000 );
             }
         }
         catch (Exception e) { }

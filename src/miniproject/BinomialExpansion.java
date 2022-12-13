@@ -1,5 +1,4 @@
 package miniproject;
-
 import java.util.Scanner;
 
 public class BinomialExpansion {
