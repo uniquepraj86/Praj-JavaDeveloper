@@ -32,7 +32,7 @@ public class EncapsulationDemo {
         this.address = address;
     }
 
-  /*  public String getName(){
+    public String getName(){
         return name;
     }
     public String getAddress(){
@@ -40,15 +40,15 @@ public class EncapsulationDemo {
     }
     public int getId(){
         return id;
-    }*/
+    }
 
     public static void main(String[] args) {
 
         EncapsulationDemo obj = new EncapsulationDemo();
-        /*obj.id = 1;
+        obj.id = 1;
         obj.name = "Ravi";
         obj.address = "Pune";
-        System.out.println("id=> "+ obj.id+ " name=>"+ obj.name+" address=>"+obj.address);*/
+        System.out.println("id=> "+ obj.id+ " name=>"+ obj.name+" address=>"+obj.address);
 
         obj.setId(1);
         obj.setName("Ravi");
