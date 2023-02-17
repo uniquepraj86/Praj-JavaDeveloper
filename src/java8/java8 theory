@@ -5,6 +5,7 @@ Features:
 1. forEach() method
 	- Iterable interface
 
+
 2. default & static methods in interface
 	default method:
 	- allow interface to have methods with implementation without affecting the classes
@@ -23,6 +24,7 @@ Features:
 	- used to refer method of functional interface
 	eg.
 
+
 4. Method Reference
 	- prerequisites are functional interface & lambda exp
 	- we can replace lambda exp with method ref
@@ -31,11 +33,13 @@ Features:
 	2. Reference to an instance method
 	3. Reference to a constructor
 
+
 5. Optional
 	- it's a final class
 	- to deal with NullPointerException
 	- to avoid abnormal termination of application
 	- java.util package
+
 
 6. Stream API
 	- from java.util.stream package
@@ -69,12 +73,6 @@ Interfaces:
          Collection API improvements
          Concurrency API improvements
          Java IO improvements
-
-
-
-
-
-
 
 Homework:
 1.
