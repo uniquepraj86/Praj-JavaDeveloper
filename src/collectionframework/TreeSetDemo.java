@@ -12,6 +12,7 @@ public class TreeSetDemo {
         treeSet.add(16);
         treeSet.add(19);
         treeSet.add(43);
+        treeSet.add(43);
         System.out.println(treeSet);
         System.out.println(treeSet.headSet(19,true));
         System.out.println(treeSet.tailSet(19,true));

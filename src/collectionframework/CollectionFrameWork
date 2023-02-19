@@ -37,6 +37,7 @@ Generics
 
 	 list and arraylist
 	 hash set and
+
 5. LinkedList(C)
 node -priviuos and next
 	- data structure Doubly-linked list
@@ -58,15 +59,17 @@ node -priviuos and next
 8. LinkedHashSet(C)
 9. Queue(I)
 	- elements are stored & accessed in First In First Out(FIFO) manner
-	-
+
 
 10. Priority Queue(C)
 	- unordered
 	- not a thread safe
+
 11. Deque
 	- Double Ended Queue
 	- pronounce as Deck
 	- used as a stack or queue
+
 12. ArrayDeque
 	- not thread-safe
 	- Null elements are prohibited
@@ -76,6 +79,7 @@ node -priviuos and next
 	- keys are unique, values can be duplicate
 	- accepts only one null key, accepts more than one null values
 	- by using key we can access or modify the values
+
 14. HashMap(C)
 	- stored key & value pair
 	- keys are unique, values can be duplicate
@@ -87,17 +91,20 @@ node -priviuos and next
 	    * a method of the Object class
 	    * can be overridden
 	    * it is mandatory to override the hashCode()
+
 	- hashCode()
 		* a method of the Object class
 		* returns the memory ref of the object in integer form.
 		* the value received from this method is used as bucket no
 		* bucket no is the address of the element inside the map
 		* hash code of null key is 0
+
 	- buckets
 		* array of node
 		* each node has a data structure like a LinkedList
 		* more than one node can have same bucket
 	- calculating index index = hashcode(key) & (N-1)
+
 15. LinkedHashMap
 	- a Hashtable & linked list implementation
 	- maintains a doubly linked list running thro all of its entries
@@ -105,6 +112,7 @@ node -priviuos and next
 	- non-synchronised
 	- maintains insertion order
 	- may contains one null key & multiple null values
+
 16. TreeMap
 	- a red-black tree implementation
 	- storing key-value pair in sorted order
@@ -116,6 +124,7 @@ node -priviuos and next
 17. EnumSet
 	- abstract class
 	- cannot have null element
+
 18. EnumMap
 	- stores key & value pair
 
@@ -135,6 +144,7 @@ Comparable:
 	-  java.lang
 	- having only one method i.e int compareTo()
 	- provides single sorting sequence
+
 Comparator:
 	- java.util
 	- order the objects

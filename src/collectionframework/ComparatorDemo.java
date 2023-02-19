@@ -37,7 +37,8 @@ public class ComparatorDemo {
 
         Comparator<ComparatorDemo> comparator1 = new Comparator<ComparatorDemo>() {
             @Override
-            public int compare(ComparatorDemo o1, ComparatorDemo o2) {
+            public int compare(ComparatorDemo o1, ComparatorDemo o2)
+            {
                 return o1.name.compareTo(o2.name);
             }
         };

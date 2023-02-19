@@ -19,7 +19,7 @@ package assignment;
             c[a1 + i] = b[i];
         }
         for (int i = 0; i < c1; i = i + 1) {
-            System.out.println( c[i]);
+            System.out.print( "  "+c[i]);
         }
     }
 }
